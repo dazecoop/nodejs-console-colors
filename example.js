@@ -1,6 +1,7 @@
-# Node.js console-colors
+/**
+ * Run `node example.js` to test this file
+ */
 
-```
 // Common
 const reset = "\x1b[0m"
 const dim = "\x1b[2m"
@@ -26,16 +27,10 @@ const BgBlue = "\x1b[44m"
 const BgMagenta = "\x1b[45m"
 const BgCyan = "\x1b[46m"
 const BgWhite = "\x1b[47m"
-```
 
-## Usage
-
-You should aim to always use `reset` after each log.
-<br />See `example.js` for demo.
-
-| Code | Output |
-| -- | -- |
-| ```console.log(`\n${dim} Dimmed text ${reset}`);``` | image |
-| ```console.log(`\n${cyan} Cyan text ${reset}`);``` | image |
-| ```console.log(`\n${black}${BgGreen} Black text, green background ${reset}`)``` | image |
-| ```console.log(`\nRegular text, then ${white}${BgRed}red background${reset}, and back to regular`);``` | image |
+// Some examples
+console.log(`\n${dim} Dimmed text ${reset}`);
+console.log(`\n${cyan} Cyan text ${reset}`);
+console.log(`\n${black}${BgGreen} Black text, green background ${reset}`);
+console.log(`\nRegular text, then ${white}${BgRed}red background${reset}, and back to regular`);
+console.log("\n");
