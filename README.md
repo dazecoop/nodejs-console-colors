@@ -29,13 +29,12 @@ const BgWhite = "\x1b[47m"
 ```
 
 ## Usage
-
 You should aim to always use `reset` after each log.
 <br />See `example.js` for demo.
 
 | Code | Output |
 | -- | -- |
-| ```console.log(`\n${dim} Dimmed text ${reset}`);``` | image |
-| ```console.log(`\n${cyan} Cyan text ${reset}`);``` | image |
-| ```console.log(`\n${black}${BgGreen} Black text, green background ${reset}`)``` | image |
-| ```console.log(`\nRegular text, then ${white}${BgRed}red background${reset}, and back to regular`);``` | image |
+| ```console.log(`\n${dim} Dimmed text ${reset}`);``` | <img height="50" src="https://user-images.githubusercontent.com/4234732/144881601-e2c0c2fe-8912-4b44-b2be-ce3eba9fd5e1.png" />
+| ```console.log(`\n${cyan} Cyan text ${reset}`);``` | <img height="50" src="https://user-images.githubusercontent.com/4234732/144881620-cf4a5943-5ec0-46ba-93e1-7c9efa511ac3.png" /> |
+| ```console.log(`\n${black}${BgGreen} Black text, green background ${reset}`)``` | <img height="50" src="https://user-images.githubusercontent.com/4234732/144881669-1f0cb715-97e9-43b9-9058-44e211b7a862.png" /> |
+| ```console.log(`\nRegular text, then ${white}${BgRed}red background${reset}, and back to regular`);``` | <img height="50" src="https://user-images.githubusercontent.com/4234732/144881694-915a9cf3-7e62-4412-91e0-5917c9528a90.png" /> |
